@@ -29,7 +29,7 @@ function calcularMedia(notas: number[]): number {
   return total / notas.length;
 }
 
-// Atribuir a cariavel a média das notas fornecidas
+// Atribuir a variavel a média das notas fornecidas
 const media_Aluno = calcularMedia(notas_Aluno);
 
 // Criar objeto com os dados digitados e calculados do aluno
